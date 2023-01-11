@@ -66,7 +66,17 @@ size2.height = 10
 print(size2.width)
 
 //Conclusion:
-print("*Conclusion: \nStruct: Copy entire data (value types), \nClass: Copy the reference (reference types)")
+print("""
+      * Conclusion: \n
+      Struct:
+      \n
+      1. Copy entire data (value types),\n
+      2. Using stack in allocation \n
+      Class:
+      \n
+      1. Copy the reference (reference types)
+      2. Using heap in allocation
+      """)
 
 
 
