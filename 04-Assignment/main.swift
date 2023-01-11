@@ -67,15 +67,16 @@ print(size2.width)
 
 //Conclusion:
 print("""
+      \n
       * Conclusion: \n
       Struct:
-      \n
-      1. Copy entire data (pass by value),\n
-      2. Using stack in allocation \n
+      1. Copy entire data (pass by value).
+      2. Using stack in allocation.
+      
       Class:
+      1. Copy the reference (pass by reference).
+      2. Using heap in allocation.
       \n
-      1. Copy the reference (pass by reference)
-      2. Using heap in allocation
       """)
 
 
