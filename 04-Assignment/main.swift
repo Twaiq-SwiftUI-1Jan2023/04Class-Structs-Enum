@@ -70,11 +70,11 @@ print("""
       * Conclusion: \n
       Struct:
       \n
-      1. Copy entire data (value types),\n
+      1. Copy entire data (pass by value),\n
       2. Using stack in allocation \n
       Class:
       \n
-      1. Copy the reference (reference types)
+      1. Copy the reference (pass by reference)
       2. Using heap in allocation
       """)
 
